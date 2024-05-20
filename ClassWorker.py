@@ -18,7 +18,7 @@ class Worker:
         if (self.satisf > 100) :
             self.satisf = 100
         if (self.satisf < 0) :
-            self.satisf = 100
+            self.satisf = 0
 
         if (self.satisf < 20) or (self.satisf = 20):
             ifSatisfied = 0
