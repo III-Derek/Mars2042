@@ -1,13 +1,21 @@
 import math
 
+WorkStats= {
+    "satisfaction" = 50
+    "ifSatisfied" = 1
+    "productivity" = 0
+    "actualProductivity" = 0
+    "expectedSalary" = 0
+}
+
 class Worker:
     def __init__(self):
         
-        self.satisf=50
-        self.ifSatisfied=1
-        self.prodcty=0
-        self.actulProdcty=0
-        self.exptSal=0
+        self.satisf = WorkStats["satisfaction"]
+        self.ifSatisfied=WorkStats["ifSatisfied"]
+        self.prodcty=WorkStats["productivity"]
+        self.actulProdcty=WorkStats["actualProductivity"]
+        self.exptSal=WorkStats["expectedSalary"]
 
     def calculateExptSal(self):
         #depends on essential resources etc
