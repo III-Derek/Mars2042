@@ -9,7 +9,7 @@ WorkStats= {
 }
 
 class Worker:
-    def __init__(self):
+    def __init__(self,WorkStats):
         
         self.satisf = WorkStats["satisfaction"]
         self.ifSatisfied=WorkStats["ifSatisfied"]
