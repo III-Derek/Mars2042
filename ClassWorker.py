@@ -9,14 +9,17 @@ WorkStats= {
 }
 
 class Worker:
-    def __init__(self,WorkStats):
-        
+    def __init__(self,name,WorkStats):
+        self.name=name
         self.satisf = WorkStats["satisfaction"]
         self.ifSatisfied=WorkStats["ifSatisfied"]
         self.prodcty=WorkStats["productivity"]
         self.actulProdcty=WorkStats["actualProductivity"]
         self.exptSal=WorkStats["expectedSalary"]
 
+    def getName():
+        print(self.name)
+    
     def updateExptSal(self):
         #depends on resources etc
         return self.exptSal
