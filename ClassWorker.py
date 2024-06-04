@@ -23,7 +23,7 @@ class Worker:
         print(self.name)
     
     def updateExptSal(self):
-        #depends on prices of electricity, weter and food linearly
+        #depends on prices of electricity, water and food linearly
         k1 = 1 # to be determined
         k2 = 1
         k3 = 1
