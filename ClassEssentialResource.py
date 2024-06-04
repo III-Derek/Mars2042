@@ -32,14 +32,14 @@ class EssentialResource:
         else:
             raise ValueError('invalid value')
 
-EletricityFields={
+ElectricityFields={
     "name" = "electricity"
     "amount" = 10
     "price" = 0
     "generation" = 0
     "consumption" = 0
     }
-electricity = EssentialResource(EletricityFields)
+electricity = EssentialResource(ElectricityFields)
 
 WaterFields={
     "name" = "water"
