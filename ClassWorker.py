@@ -1,4 +1,6 @@
 import math
+import ClassEssentialResources
+
 
 WorkStats= {
     "satisfaction" = 50
@@ -21,7 +23,12 @@ class Worker:
         print(self.name)
     
     def updateExptSal(self):
-        #depends on resources etc
+        #depends on prices of electricity, weter and food linearly
+        k = 1 # to be determined
+        self.exptSal = ( ClassEssentialResources.ElectricityFields["price"] +
+        ClassEssentialResources.WaterFields["price"] +
+        ClassEssentialResources.FoodFields["price"] ) * k
+    
         return self.exptSal
 
     def updateSatisf(self,actulSal):
