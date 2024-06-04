@@ -3,7 +3,8 @@ import ClassEssentialResources
 
 
 WorkStats= {
-    "population" = 10
+    "name" = ""
+    "population" = 0
     "satisfaction" = 50
     "ifSatisfied" = 1
     "productivity" = 10
@@ -60,7 +61,7 @@ class Worker:
     def updateActulProdcty(self):
         if (ifSatisfied = 0) :
             self.prodcty = 0
-            print(WORKS ON STRIKE!)
+            print(WORKERS ON STRIKE!)
         else:
             self.actulProdcty = self.prodcty * (self.satisf / 50)
 
