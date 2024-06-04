@@ -3,6 +3,7 @@ import ClassEssentialResources
 
 
 WorkStats= {
+    "population" = 10
     "satisfaction" = 50
     "ifSatisfied" = 1
     "productivity" = 10
@@ -11,8 +12,9 @@ WorkStats= {
 }
 
 class Worker:
-    def __init__(self,name,WorkStats):
+    def __init__(self,WorkStats):
         self.name=name
+        self.population = WorkStats["population"]
         self.satisf = WorkStats["satisfaction"]
         self.ifSatisfied=WorkStats["ifSatisfied"]
         self.prodcty=WorkStats["productivity"]
@@ -58,6 +60,7 @@ class Worker:
     def updateActulProdcty(self):
         if (ifSatisfied = 0) :
             self.prodcty = 0
+            print(WORKS ON STRIKE!)
         else:
             self.actulProdcty = self.prodcty * (self.satisf / 50)
 
