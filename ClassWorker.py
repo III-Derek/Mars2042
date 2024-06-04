@@ -24,10 +24,12 @@ class Worker:
     
     def updateExptSal(self):
         #depends on prices of electricity, weter and food linearly
-        k = 1 # to be determined
-        self.exptSal = ( ClassEssentialResources.ElectricityFields["price"] +
-        ClassEssentialResources.WaterFields["price"] +
-        ClassEssentialResources.FoodFields["price"] ) * k
+        k1 = 1 # to be determined
+        k2 = 1
+        k3 = 1
+        self.exptSal =  k1 * ClassEssentialResources.ElectricityFields["price"] +
+        k2 * ClassEssentialResources.WaterFields["price"] +
+        k3 * ClassEssentialResources.FoodFields["price"] 
     
         return self.exptSal
 
