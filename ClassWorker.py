@@ -14,10 +14,6 @@ class Worker:
         self.prodcty= 10 #float
         self.actulProdcty= 0 #float
         self.exptSal= 0 #float
-
-    def getName():
-        #print name of the worker.
-        print(self.name)
     
     def updateExptSal(self):
         #update and return expected salary.
@@ -66,6 +62,8 @@ class Worker:
             self.actulProdcty = self.prodcty * (self.satisf / 50)
 
         return self.actulProdcty
+
+        
 
     
 
