@@ -16,7 +16,7 @@ class Worker:
         self.exptSal= 0 #float
     
     def updateExptSal(self):
-        #update and return expected salary.
+        #update and return expected salary of a worker.
         #expected salary depends on prices of electricity, water and food linearly.
         k1 = 1 # to be determined
         k2 = 1
@@ -52,7 +52,7 @@ class Worker:
         return self.prodcty
 
     def updateActulProdcty(self):
-        #update and return actual productivity.
+        #update and return actual productivity of a worker.
         #formula: self.prodcty * (self.satisf / 50) if ifSatisfied=1; else 0.
         
         if (ifSatisfied = 0) :
