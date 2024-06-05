@@ -11,7 +11,7 @@ class Worker:
         self.population = 0 #int>=0
         self.satisf = 50 #float, between 0 and 100
         self.ifSatisfied= 1 #bool, becomes 0 if satisf<20
-        self.prodcty= 0 #float
+        self.prodcty= 10 #float
         self.actulProdcty= 0 #float
         self.exptSal= 0 #float
 
@@ -66,12 +66,6 @@ class Worker:
             self.actulProdcty = self.prodcty * (self.satisf / 50)
 
         return self.actulProdcty
-        
-
-        
-        
-
-        
 
     
 
