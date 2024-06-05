@@ -1,18 +1,6 @@
 import math
 import ClassEssentialResources
 
-"""
-WorkStats= {
-    "name" = ""
-    "population" = 0
-    "satisfaction" = 50
-    "ifSatisfied" = 1
-    "productivity" = 10
-    "actualProductivity" = 0
-    "expectedSalary" = 0
-}
-"""
-
 class Worker:
     def __init__(self,name):
         """
