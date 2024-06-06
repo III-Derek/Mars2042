@@ -1,2 +1,2 @@
 # Mars2042
-This is a MARs 2042 simulation bullshit game
+# Approximation of Game Specification using Manually Generate Data points 
