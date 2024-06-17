@@ -5,3 +5,4 @@ something, and that is the most important feature we are going to use. Imagine w
 data points are manually created to suit a specific game function that we use, then we can create a neural network to 
 approximate it, and use that trained neural network as our function. Eventually, we have trained specific neural network
 that will eventually do what we want to do
+$x_6 = \dfrac{1}{x}$
