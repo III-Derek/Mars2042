@@ -1,6 +1,7 @@
 <div style="text-align: center;">
-  <font size="20">Mars 2042</font>
+  <h4>Mars 2042</h4>
 </div>
+
 
 # Approximation of Game Specification using Manually Generate Data points 
 Neural Network can be used to approximate all sorts of points, even if the points it predicts is wrong, it still outputs 
