@@ -9,7 +9,7 @@
 <p>$\textbf{Solution:}$ Manually generate datapoints over the interval in which we want the function to be defined. Then, uning the following method to approximate those datapoints, to create a function.</p>
     <ul>
       <li>Linear Regression</li>
-      <li>Hermite Polynomial</li>
+      <li>Bernstein Polynomial</li>
       <li>Neural Network</li>
     </ul>
 <p>The results of the above function approximation will be studied, and we will investigate their mean squared error</p>
