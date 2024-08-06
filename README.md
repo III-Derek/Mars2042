@@ -13,3 +13,10 @@
       <li>Neural Network</li>
     </ul>
 <p>The results of the above function approximation will be studied, and we will investigate their mean squared error</p>
+We generally have 4 types of problems:
+<ul>
+  <li>High Dimensional Problem with High Linearity</li>
+  <li>Low Dimensional Problem with Low Linearity</li>
+  <li>High Dimensionail Problem with low Linearity</li>
+  <li>Low Dimensional Problem with high linearity</li>
+</ul>
